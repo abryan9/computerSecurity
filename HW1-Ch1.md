@@ -40,4 +40,31 @@ High
 
 ---
 
-## Problem 4: Develop an attack tree for gaining access to the contents of a physical safe
+## Problem 4: Develop an attack tree for gaining access to the contents of a physical safe.
+
+    └── Open safe
+        ├── Pick lock/
+        │   ├── Pin-by-pin picking
+        │   ├── Check for unshielded core
+        │   ├── Shim
+        │   └── Check for bump key vulnerability
+        ├── Learn combination/
+        │   ├── From owner/
+        │   │   ├── Ask very politely and definitely without intimidation ;)
+        │   │   ├── Socially engineer common combinations/
+        │   │   │   ├── Digital scamming
+        │   │   │   ├── Befriend the owner, then betray them
+        │   │   │   └── Impersonate a safe maintainence crew
+        │   │   └── Borrow key
+        │   └── From side-channel/
+        │       ├── Check for fingerprints on pinpad
+        │       ├── Observe owner entering pin discretely/
+        │       │   ├── Bug the safe
+        │       │   └── Observe in person
+        │       └── Look for combination written/typed somewhere
+        └── Brute force/
+            ├── Drill core
+            ├── Cut door open
+            ├── Magnetic bypass
+            ├── Stellar guessing skills and determination
+            └── Melt safe door/wall
