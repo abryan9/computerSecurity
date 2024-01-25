@@ -68,3 +68,12 @@ High
             ├── Magnetic bypass
             ├── Stellar guessing skills and determination
             └── Melt safe door/wall
+
+
+## Extra Credit: Provide a reasonable answer for why I might not want a PDF. ##
+
+PDFs are vulnerable to attacks because malicious code can be embeddd into the file to execute unprompted in the background.
+Due to Actions, JavaScript embedding, and hyperlinks being added to PDFs in an attempt to make them more powerful, these vulnerabilities opened up. Whether it is adding a dangerous hyperlink, embedding a secret file within the PDF, or adding
+JavaScript attacks, PDFs can be equipped with backdoors, keyloggers, IP leaks, and more.
+
+[Reference - trustwave.com](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/threat-loaded-malicious-pdfs-never-go-out-of-style/)
