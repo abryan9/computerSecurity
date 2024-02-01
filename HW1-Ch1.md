@@ -40,4 +40,40 @@ High
 
 ---
 
-## Problem 4: Develop an attack tree for gaining access to the contents of a physical safe
+## Problem 4: Develop an attack tree for gaining access to the contents of a physical safe.
+
+    └── Open safe
+        ├── Pick lock/
+        │   ├── Pin-by-pin picking
+        │   ├── Check for unshielded core
+        │   ├── Shim
+        │   └── Check for bump key vulnerability
+        ├── Learn combination/
+        │   ├── From owner/
+        │   │   ├── Ask very politely and definitely without intimidation ;)
+        │   │   ├── Socially engineer common combinations/
+        │   │   │   ├── Digital scamming
+        │   │   │   ├── Befriend the owner, then betray them
+        │   │   │   └── Impersonate a safe maintainence crew
+        │   │   └── Borrow key
+        │   └── From side-channel/
+        │       ├── Check for fingerprints on pinpad
+        │       ├── Observe owner entering pin discretely/
+        │       │   ├── Bug the safe
+        │       │   └── Observe in person
+        │       └── Look for combination written/typed somewhere
+        └── Brute force/
+            ├── Drill core
+            ├── Cut door open
+            ├── Magnetic bypass
+            ├── Stellar guessing skills and determination
+            └── Melt safe door/wall
+
+
+## Extra Credit: Provide a reasonable answer for why I might not want a PDF. ##
+
+PDFs are vulnerable to attacks because malicious code can be embeddd into the file to execute unprompted in the background.
+Due to Actions, JavaScript embedding, and hyperlinks being added to PDFs in an attempt to make them more powerful, these vulnerabilities opened up. Whether it is adding a dangerous hyperlink, embedding a secret file within the PDF, or adding
+JavaScript attacks, PDFs can be equipped with backdoors, keyloggers, IP leaks, and more.
+
+[Reference - trustwave.com](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/threat-loaded-malicious-pdfs-never-go-out-of-style/)
