@@ -1,13 +1,13 @@
 ## Caesar Cipher Frequency Analysis -- Pseudocode ##
 
 ### User Input ###
-- [ ] Prompt user for string input
-- [ ] Convert to lower
+- [x] Prompt user for string input
+- [x] Convert to lower
 
 ### Brute Force ###
-- [ ] Shift for values between 0 and 25
-- [ ] If char.isalpha(), shift 
-- [ ] Write to output text file, overwrite
+- [x] Shift for values between 0 and 25
+- [x] If char.isalpha(), shift 
+- [x] Write to output text file, overwrite
 
 ### Frequency Analysis ###
 - [ ] For each iteration of brute force, analyze frequency of letters

@@ -24,7 +24,7 @@ def encode(plaintext, offset):
 
     for char in plaintext.lower():
 
-        if (ord('a') <= ord(char) <= ord('z')):
+        if (char.isalpha()):
             char_val = ord(char) + int(offset)
 
             while (char_val > ord('z')):
