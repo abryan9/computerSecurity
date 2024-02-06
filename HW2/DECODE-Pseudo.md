@@ -16,3 +16,6 @@
 ### Probability Report ###
 - [ ] Return top 3 or top 5 results from Frequency Analysis
 - [ ] Shorter strings will be more difficult to get correct
+
+### IMPORTANT ###
+- [ ] ADD COMMENTS EXPLAINING YOUR WORK. DO NOT LET HIM THINK YOU'RE STEALING CODE!!!
